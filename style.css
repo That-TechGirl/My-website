@@ -1,0 +1,89 @@
+body{
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.card{
+    width: 45%;
+}
+.main{
+    flex: 1;
+}
+.logo{
+    color: blueviolet;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.0rem;
+}
+h1{
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+.creative{
+    color: rgb(248, 134, 4);
+
+}
+footer{
+    text-align: right;
+    color: rgb(74, 116, 116);
+}
+.title-image{
+    float: left;
+    height: 200px;
+    margin-right: 50px;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right ;
+}
+@media(max-width:600px){
+    .logo{
+        width: 25px;
+        height: 25px;
+    }
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    h2{
+        font-size: 3.5rem;
+        text-align: center
+    }
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .card img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+}
+ul{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(72, 10, 216);
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+    float: inline-end;
+    flex-direction: row;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 14px 45px;
+
+    text-align: center;
+    text-decoration: none;
+}
